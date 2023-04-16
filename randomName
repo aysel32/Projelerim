@@ -3,7 +3,7 @@ import copy
 
 #verilen listedeki elemanların sırasını rastgele bir şekilde yazdırarak, her elemanın yalnızca bir kez yazdırılmasını sağlar
 
-liste = ["Aysel", "Cengiz", "Emine", "Filiz", "Gülsüm", "Gülşah", "Keziban", "Onur Hoca", "Şerife", "Zeynep"]
+liste = ["Aysel", "Cengiz", "Emine", "Filiz", "Gülsüm", "Gülşah", "Keziban", "Onur Çıkıt", "Şerife", "Zeynep"]
 kopya_liste = copy.deepcopy(liste)
 
 for i in range(len(liste)):
