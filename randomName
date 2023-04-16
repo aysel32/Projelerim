@@ -8,9 +8,8 @@ kopya_liste = copy.deepcopy(liste)
 
 for i in range(len(liste)):
     rastgele_index = random.randint(0, len(kopya_liste)-1)
-    print(kopya_liste[rastgele_index])
+    print(i,"=>",kopya_liste[rastgele_index])
     kopya_liste.pop(rastgele_index)
-    
     
 
 
