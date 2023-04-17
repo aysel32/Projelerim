@@ -3,13 +3,13 @@ import copy
 
 #verilen listedeki elemanların sırasını rastgele bir şekilde yazdırarak, her elemanın yalnızca bir kez yazdırılmasını sağlar
 
-liste = ["Aysel", "Cengiz", "Emine", "Filiz", "Gülsüm", "Gülşah", "Keziban", "Onur Çıkıt", "Şerife", "Zeynep"]
-kopya_liste = copy.deepcopy(liste)
+list = ["Aysel", "Cengiz", "Emine", "Filiz", "Gülsüm", "Gülşah", "Keziban", "Onur Çıkıt", "Şerife", "Zeynep"]
+copy_list = copy.deepcopy(list)
 
-for i in range(len(liste)):
-    rastgele_index = random.randint(0, len(kopya_liste)-1)
-    print(i,"=>",kopya_liste[rastgele_index])
-    kopya_liste.pop(rastgele_index)
+for i in range(len(list)):
+    rand_index = random.randint(0, len(copy_list)-1)
+    print(i,"=>",copy_list[rand_index])
+    copy_list.pop(rand_index)
     
 
 
