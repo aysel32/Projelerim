@@ -6,7 +6,7 @@ import copy
 list = ["Aysel", "Cengiz", "Emine", "Filiz", "Gülsüm", "Gülşah", "Keziban", "Onur Çıkıt", "Şerife", "Zeynep"]
 copy_list = copy.deepcopy(list)
 
-for i in range(len(list)):
+for i in range(1,len(list)+1):
     rand_index = random.randint(0, len(copy_list)-1)
     print(i,"=>",copy_list[rand_index])
     copy_list.pop(rand_index)
