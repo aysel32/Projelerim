@@ -5,5 +5,5 @@ import random
 list = ["Aysel", "Cengiz", "Emine", "Filiz", "Gülsüm", "Gülşah", "Keziban", "Onur-H", "Şerife", "Zeynep"]
 random.shuffle(liste)
 
-for ix, eleman in enumerate(liste,1):
+for ix, eleman in enumerate(list,1):
     print(f"{ix} => {eleman}")
