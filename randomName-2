@@ -2,8 +2,8 @@
 import random
 
 
-list = ["Aysel", "Cengiz", "Emine", "Filiz", "Gülsüm", "Gülşah", "Keziban", "Onur-H", "Şerife", "Zeynep"]
-random.shuffle(liste)
+my_list = ["Aysel", "Cengiz", "Emine", "Filiz", "Gülsüm", "Gülşah", "Keziban", "Onur-H", "Şerife", "Zeynep"]
+random.shuffle(my_list)
 
-for ix, eleman in enumerate(list,1):
+for ix, eleman in enumerate(my_list,1):
     print(f"{ix} => {eleman}")
