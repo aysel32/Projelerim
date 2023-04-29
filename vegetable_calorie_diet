@@ -1,0 +1,13 @@
+#kalorisi 150 den büyük sebzeleri eşleştirmeden list comprehension ile zip liste oluşturma
+
+vegetable_list = ["broccoli","cauliflower","potatoes","spinach","leek","courgette","green beans","tomatoes","pepper","cabbage"]
+
+days_list = ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+
+cal_list = [40,70,150,100,82,60,120,200,225,123,105]
+
+zipp_list = list(zip(vegetable_list,days_list,cal_list ))
+
+new_zipp_list = [(days, vegetable,cal) for vegetable,days,cal in zipp_list if cal < 150 ]
+
+print(new_zipp_list)
